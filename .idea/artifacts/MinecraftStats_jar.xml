@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MinecraftStats:jar">
+    <output-path>$USER_HOME$/Documents/Minecraft Server (1.15.2)/plugins</output-path>
+    <root id="archive" name="MinecraftStats.jar">
+      <element id="module-output" name="MinecraftStats" />
+    </root>
+  </artifact>
+</component>

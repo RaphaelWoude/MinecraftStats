@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="MinecraftStats:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8f7ea986-2943-40dc-a3cb-b3e63bc04fae" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YaDz6GXhh5tOHTATkL9oVfXdem" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Minecraft Server (1.15.2)/plugins" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f7ea986-2943-40dc-a3cb-b3e63bc04fae" name="Default Changelist" comment="" />
+      <created>1583172071430</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583172071430</updated>
+      <workItem from="1583172078059" duration="6775000" />
+      <workItem from="1583221159228" duration="11082000" />
+      <workItem from="1583233495682" duration="2305000" />
+      <workItem from="1583236044185" duration="1143000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2719" y="266" width="374" height="582" key="#com.intellij.ide.util.MemberChooser" timestamp="1583177209653">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2719" y="266" width="374" height="582" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583177209653" />
+    <state x="2689" y="300" width="424" height="520" key="FileChooserDialogImpl" timestamp="1583175382559">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2689" y="300" width="424" height="520" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583175382559" />
+    <state x="521" y="155" width="1024" height="852" key="SettingsEditor" timestamp="1583224073541">
+      <screen x="62" y="27" width="1858" height="1053" />
+    </state>
+    <state x="2394" y="131" width="1024" height="852" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583175385828" />
+    <state x="521" y="155" key="SettingsEditor/62.27.1858.1053@62.27.1858.1053" timestamp="1583224073541" />
+    <state x="2644" y="307" width="524" height="500" key="extract.method.dialog" timestamp="1583175027046">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2644" y="307" width="524" height="500" key="extract.method.dialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583175027046" />
+    <state x="2556" y="120" width="710" height="867" key="find.popup" timestamp="1583174517184">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2556" y="120" width="710" height="867" key="find.popup/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1583174517184" />
+  </component>
+</project>
