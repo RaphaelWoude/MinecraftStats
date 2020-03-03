@@ -8,7 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8f7ea986-2943-40dc-a3cb-b3e63bc04fae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sympatic/minecraftstats/MinecraftStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sympatic/minecraftstats/MinecraftStats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sympatic/minecraftstats/listeners/PlayerInventoryClickEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sympatic/minecraftstats/listeners/PlayerInventoryClickListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,8 @@
       <workItem from="1583221159228" duration="11082000" />
       <workItem from="1583233495682" duration="2305000" />
       <workItem from="1583236044185" duration="1143000" />
-      <workItem from="1583239379825" duration="416000" />
+      <workItem from="1583239379825" duration="505000" />
+      <workItem from="1583254236439" duration="57000" />
     </task>
     <servers />
   </component>

@@ -7,7 +7,7 @@ import org.sympatic.minecraftstats.commands.StatsCommand;
 import org.sympatic.minecraftstats.file.ProfileFile;
 import org.sympatic.minecraftstats.listeners.PlayerBlockListener;
 import org.sympatic.minecraftstats.listeners.PlayerDeathListener;
-import org.sympatic.minecraftstats.listeners.PlayerInventoryClickEvent;
+import org.sympatic.minecraftstats.listeners.PlayerInventoryClickListener;
 import org.sympatic.minecraftstats.listeners.PlayerJoinListener;
 
 /**
@@ -29,7 +29,7 @@ public class MinecraftStats extends JavaPlugin {
         getServer().getScheduler().runTaskTimer(this, () -> {
             for (Player player : getServer().getOnlinePlayers()) {
                 ProfileFile playerProfile = new ProfileFile(main, "/profiles", player.getUniqueId().toString());
-                playerProfile.setPlaytime(playerProfile.getConfig().getInt("playtime") + 5);
+                playerProfile.setPlaytime(playerProfile.getPlaytime() + 5);
                 playerProfile.save();
             }
         }, 20, 20 * 5);
@@ -48,7 +48,7 @@ public class MinecraftStats extends JavaPlugin {
         PluginManager pluginManager = getServer().getPluginManager();
         pluginManager.registerEvents(new PlayerJoinListener(this), this);
         pluginManager.registerEvents(new PlayerDeathListener(this), this);
-        pluginManager.registerEvents(new PlayerInventoryClickEvent(), this);
+        pluginManager.registerEvents(new PlayerInventoryClickListener(), this);
         pluginManager.registerEvents(new PlayerBlockListener(this), this);
     }
 
