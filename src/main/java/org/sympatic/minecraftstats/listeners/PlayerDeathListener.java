@@ -19,7 +19,7 @@ public class PlayerDeathListener implements Listener {
         Player killer = event.getEntity().getKiller();
 
         ProfileFile victimProfile = new ProfileFile(main, "/profiles", victim.getUniqueId().toString());
-        victimProfile.setDeaths(victimProfile.getDeaths()+ 1);
+        victimProfile.setDeaths(victimProfile.getDeaths() + 1);
         victimProfile.save();
 
         if (killer != null) {

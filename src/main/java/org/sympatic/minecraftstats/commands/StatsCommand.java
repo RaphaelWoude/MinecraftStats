@@ -51,7 +51,7 @@ public class StatsCommand implements CommandExecutor {
                     break;
                 }
 
-                ProfileFile playerProfile = new ProfileFile(main, "/profiles", player.getUniqueId().toString());
+                ProfileFile playerProfile = new ProfileFile(main, "/profiles", offlinePlayer.getUniqueId().toString());
                 Inventory inventory = main.getServer().createInventory(null, 9 * 4, ChatColor.BLUE + ChatColor.BOLD.toString() + "Stats");
                 inventory.setItem(13, addPlayerHead(offlinePlayer));
                 inventory.setItem(21, addPvpItem(playerProfile));
